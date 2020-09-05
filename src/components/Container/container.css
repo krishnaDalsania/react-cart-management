@@ -1,0 +1,62 @@
+.header {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: #a6bf38;
+    border-radius: 35px;
+    padding: 6px;
+}
+.content {
+    padding: 60px;
+    background: #dbdada;
+}
+
+.navbar-brand.active {
+    color: #fff;
+    background-color: #a6bf38;
+    border-radius: 35px;
+    padding: 6px;
+}
+.title {
+    text-align: left;
+}
+.card {
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card:hover {
+    cursor: pointer;
+}
+.basket-container{
+    position: fixed !important;
+    width: 30% !important;
+    margin-top: 15px;
+}
+.align-left {
+    text-align: left;
+}
+.price {
+    color: #a6bf38;
+}
+.description {
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+.checkout-button {
+    width: 100%;
+    background-color: #a6bf38 !important;
+    border: none !important;
+}
+.nav-item a {
+    color: #a6bf38;
+}
+@media (min-width: 768px) {
+    .col-md-6, .col-md-7, .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 100% !important;
+    }
+}

@@ -1,0 +1,42 @@
+.modal-close {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    opacity: 1 !important;
+    cursor: pointer;
+}
+.fav-title {
+    background-color: #eae4e4;
+    padding: 10px;
+}
+.align-right {
+    text-align: right;
+}
+.align-left {
+    text-align: left;
+}
+.add-button {
+    width: 100%;
+    color: #fff !important;
+    background-color: #a6bf38 !important;
+    border: none !important;
+}
+.fav-link {
+    cursor: pointer;
+}
+.fav-card:hover {
+    cursor: auto !important;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    cursor: pointer;
+  }
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
